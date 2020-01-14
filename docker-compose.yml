@@ -1,0 +1,8 @@
+version: "3"
+services:
+  notebook:
+    build: .
+    ports:
+      - "8889:8888"
+    volumes:
+      - .:/bonsai
